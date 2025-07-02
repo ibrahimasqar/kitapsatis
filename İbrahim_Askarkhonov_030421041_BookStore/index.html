@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bookoe - Kitapçı Web Sitesi</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!--- google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <!-- Fontawesome Link for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <div class="img">
+          <img src="images/logo.png" alt="" />
+        </div>
+        <div class="logo-header">
+          <h4><a href="index.html">Bookoe</a></h4>
+          <small>Kitapçı Web Sitesi</small>
+        </div>
+      </div>
+      <ul class="nav-list">
+        <div class="logo">
+          <div class="title">
+            <div class="img">
+              <img src="images/logo.png" alt="" />
+            </div>
+            <div class="logo-header">
+              <h4><a href="index.html">Bookoe</a></h4>
+              <small>Kitapçı Web Sitesi</small>
+            </div>
+          </div>
+          <button class="close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="pages/service.html">Hizmetler</a></li>
+        <li><a href="pages/contact.html">İletişim</a></li>
+        <li><a href="Pages/book-filter.html">Kitaplar</a></li>
+        <button class="login"><a href="pages/login.html">Giriş Yap</a></button>
+        <button class="signup">
+          <i class="fa-solid fa-user"></i><a href="pages/registration.html">Kayıt Ol</a>
+        </button>
+      </ul>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="main">
+      <div class="content">
+        <small>okula dönüş</small>
+        <h2>Öğrencilere Özel %50 İndirim</h2>
+        <h5>öğrenci topluluğumuza özel</h5>
+        <p>
+          Sınırlı süreli kampanya ile kitap alışverişinizi daha uygun hale getirin.
+          Öğrenciler için özel fırsatlarımızı kaçırmayın!
+        </p>
+        <div class="btns">
+          <button>Fırsatı Yakala <i class="fa-solid fa-arrow-right"></i></button>
+          <button>Diğer Kampanyalara Bak</button>
+        </div>
+      </div>
+      <div class="img">
+        <img src="images/teenager-student-girl-yellow-pointing-finger-side-copy.png" alt="" />
+      </div>
+    </div>
+    <div class="square-dot">
+      <i class="fa-solid fa-square"></i>
+      <i class="fa-solid fa-square"></i>
+      <i class="fa-solid fa-square"></i>
+      <i class="fa-solid fa-square"></i>
+      <i class="fa-solid fa-square"></i>
+      <i class="fa-solid fa-square"></i>
+      <i class="fa-solid fa-square"></i>
+      <i class="fa-solid fa-square"></i>
+      <i class="fa-solid fa-square"></i>
+      <i class="fa-solid fa-square"></i>
+      <i class="fa-solid fa-square"></i>
+      <i class="fa-solid fa-square"></i>
+    </div>
+    <div class="orange-circle"></div>
+    <div class="blue-circle"></div>
+  </section>
+
+  <section class="service">
+    <div class="service-container">
+      <div class="service-card">
+        <div class="icon">
+          <i class="fa-solid fa-bolt-lightning"></i>
+        </div>
+        <div class="service-content">
+          <h5>Hızlı Teslimat</h5>
+          <p>
+            Siparişleriniz en kısa sürede özenle hazırlanıp adresinize ulaştırılır.
+          </p>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="icon">
+          <i class="fa-solid fa-shield"></i>
+        </div>
+        <div class="service-content">
+          <h5>Güvenli Ödeme</h5>
+          <p>
+            Tüm ödeme işlemleriniz şifreli sistemlerle güvence altındadır.
+          </p>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="icon">
+          <i class="fa-solid fa-thumbs-up"></i>
+        </div>
+        <div class="service-content">
+          <h5>En İyi Kalite</h5>
+          <p>
+            Tedarik ettiğimiz tüm ürünler kalite standartlarına uygun şekilde sunulur.
+          </p>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="icon">
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="service-content">
+          <h5>İade Garantisi</h5>
+          <p>
+            Memnun kalmadığınız ürünleri belirli süre içerisinde kolayca iade edebilirsiniz.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="suggestion">
+    <div class="container">
+      <div class="recommend">
+        <h4>Sizin İçin Önerilenler</h4>
+        <p>
+          İlgi alanlarınıza uygun kitapları sizin için bir araya getirdik.
+          Kaçırmak istemeyeceğiniz yeni keşifler burada sizi bekliyor.
+        </p>
+        <div class="book-container">
+          <div class="book">
+            <figure>
+              <a href="Pages/book-detail.html"><img src="images/book-1.jpg" alt="" /></a>
+            </figure>
+          </div>
+          <div class="book">
+            <figure>
+              <a href="Pages/book-detail.html"><img src="images/book-2.jpg" alt="" /></a>
+            </figure>
+          </div>
+          <div class="book">
+            <figure>
+              <a href="Pages/book-detail.html"><img src="images/book-3.jpg" alt="" /></a>
+            </figure>
+          </div>
+          <div class="book">
+            <figure>
+              <a href="Pages/book-detail.html"><img src="images/book-4.jpg" alt="" /></a>
+            </figure>
+          </div>
+        </div>
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="square-dot">
+          <i class="fa-solid fa-square"></i>
+          <!-- square icons omitted for brevity -->
+        </div>
+      </div>
+      <div class="popular">
+        <h4>2020 Yılının Popülerleri</h4>
+        <p>
+          Okurlar tarafından en çok tercih edilen, listeleri zorlayan kitaplara göz atın.
+        </p>
+        <div class="book-container">
+          <div class="book">
+            <figure>
+              <a href="Pages/book-detail.html"><img src="images/book-5.jpg" alt="" /></a>
+            </figure>
+          </div>
+          <div class="book">
+            <figure>
+              <a href="Pages/book-detail.html"><img src="images/book-6.jpg" alt="" /></a>
+            </figure>
+          </div>
+          <div class="book">
+            <figure>
+              <a href="Pages/book-detail.html"><img src="images/book-7.jpg" alt="" /></a>
+            </figure>
+          </div>
+          <div class="book">
+            <figure>
+              <a href="Pages/book-detail.html"><img src="images/book-8.jpg" alt="" /></a>
+            </figure>
+          </div>
+        </div>
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="square-dot">
+          <i class="fa-solid fa-square"></i>
+          <!-- square icons omitted for brevity -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="offer">
+    <div class="header">
+      <h4>Özel Teklifler</h4>
+      <p>
+        Sadece sınırlı bir süre için geçerli fırsatlar! Favori kitaplarını indirimli al.
+      </p>
+    </div>
+    <div class="offer-container">
+      <div class="offer">
+        <div class="img">
+          <a href="Pages/book-detail.html"><img src="images/book-1.jpg" alt="" /></a>
+        </div>
+        <div class="offer-content">
+          <h5>The Giver</h5>
+          <div class="genre">
+            <span>biyografi</span>
+            <span>gerilim</span>
+            <span>korku</span>
+          </div>
+          <p>
+            Geleceğin distopik dünyasında bireysel seçimlerin sınırlarını sorgulatan etkileyici bir roman.
+          </p>
+          <small>Kevin Smiley</small>
+          <div class="offer-bottom">
+            <button class="cartbtn">
+              <i class="fa-solid fa-cart-shopping"></i>Sepete Ekle
+            </button>
+            <div class="price">
+              <strong><span>$</span>18.7</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="offer">
+        <div class="img">
+          <a href="Pages/book-detail.html"><img src="images/book-3.jpg" alt="" /></a>
+        </div>
+        <div class="offer-content">
+          <h5>Radical Gardening</h5>
+          <div class="genre">
+            <span>biyografi</span>
+            <span>gerilim</span>
+            <span>korku</span>
+          </div>
+          <p>
+            Bahçecilik yalnızca doğayla değil, aynı zamanda toplumla da bağ kurmaktır. Farklı bir bakış açısı!
+          </p>
+          <small>Kevin Smiley</small>
+          <div class="offer-bottom">
+            <button class="cartbtn">
+              <i class="fa-solid fa-cart-shopping"></i>Sepete Ekle
+            </button>
+            <div class="price">
+              <strong><span>$</span>18.7</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="offer">
+        <div class="img">
+          <a href="pages/book-detail.html"><img src="images/book-2.jpg" alt="" /></a>
+        </div>
+        <div class="offer-content">
+          <h5>The Bright Brothers</h5>
+          <div class="genre">
+            <span>biyografi</span>
+            <span>gerilim</span>
+            <span>korku</span>
+          </div>
+          <p>
+            İki kardeşin hayal gücü ve kararlılıkla dolu sıra dışı yaşam öyküsü sizi derinden etkileyecek.
+          </p>
+          <small>Kevin Smiley</small>
+          <div class="offer-bottom">
+            <button class="cartbtn">
+              <i class="fa-solid fa-cart-shopping"></i>Sepete Ekle
+            </button>
+            <div class="price">
+              <strong><span>$</span>18.7</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sale">
+    <div class="header">
+      <h4>Flaş İndirim</h4>
+      <p>
+        Sadece bugün geçerli flaş fırsatları kaçırmayın! <br />
+        Zaman daralıyor, hemen alışverişe başlayın.
+      </p>
+    </div>
+    <div class="timer">
+      <div class="hours">
+        <span id="hour"></span>
+        <small>Saat</small>
+      </div>
+      <div class="minutes">
+        <span id="minute"></span>
+        <small>Dakika</small>
+      </div>
+      <div class="seconds">
+        <span id="second"></span>
+        <small>Saniye</small>
+      </div>
+    </div>
+    <div class="book-container">
+      <div class="book">
+        <div class="img">
+          <a href="Pages/book-detail.html">
+            <img src="images/book-9.jpg" alt="" />
+          </a>
+        </div>
+        <h5>The Ruins Of Gorlan</h5>
+        <small>Gerilim</small>
+        <div class="price">
+          <span>₺539,00</span>
+          <span><strike>₺690,00</strike></span>
+        </div>
+      </div>
+      <div class="book">
+        <div class="img">
+          <a href="Pages/book-detail.html">
+            <img src="images/book-10.jpg" alt="" />
+          </a>
+        </div>
+        <h5>Percy Jackson</h5>
+        <small>Gerilim</small>
+        <div class="price">
+          <span>₺539,00</span>
+          <span><strike>₺690,00</strike></span>
+        </div>
+      </div>
+      <div class="book">
+        <div class="img">
+          <a href="Pages/book-detail.html">
+            <img src="images/book-11.jpg" alt="" />
+          </a>
+        </div>
+        <h5>Clever Lands</h5>
+        <small>Gerilim</small>
+        <div class="price">
+          <span>₺539,00</span>
+          <span><strike>₺690,00</strike></span>
+        </div>
+      </div>
+      <div class="book">
+        <div class="img">
+          <a href="Pages/book-detail.html">
+            <img src="images/book-12.jpg" alt="" />
+          </a>
+        </div>
+        <h5>Dick Francis</h5>
+        <small>Gerilim</small>
+        <div class="price">
+          <span>₺539,00</span>
+          <span><strike>₺690,00</strike></span>
+        </div>
+      </div>
+      <div class="book">
+        <div class="img">
+          <a href="Pages/book-detail.html">
+            <img src="images/book-1.jpg" alt="" />
+          </a>
+        </div>
+        <h5>The Giver</h5>
+        <small>Gerilim</small>
+        <div class="price">
+          <span>₺539,00</span>
+          <span><strike>₺690,00</strike></span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="book-sale">
+    <div class="heading">
+      <h4>İndirimdeki Kitaplar</h4>
+      <div class="arrowbtn">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>
+    </div>
+    <div class="book-container">
+      <div class="wrapper">
+        <ul class="carousel">
+          <li class="card">
+            <div class="img">
+              <a href="Pages/book-detail.html"><img src="images/book-1.jpg" alt="" /></a>
+              <span class="badge">50%</span>
+            </div>
+            <h5>The Giver</h5>
+            <div class="genre">
+              <span>macera,</span><span>hayatta kalma</span>
+            </div>
+            <div class="footer">
+              <span class="star"><i class="fa fa-star"></i> 4.7</span>
+              <div class="price">
+                <span>₺45,40</span>
+                <span><strike>₺90,40</strike></span>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="img">
+              <a href="Pages/book-detail.html"><img src="images/book-2.jpg" alt="" /></a>
+              <span class="badge">50%</span>
+            </div>
+            <h5>The Wright ...</h5>
+            <div class="genre">
+              <span>macera,</span><span>hayatta kalma</span>
+            </div>
+            <div class="footer">
+              <span class="star"><i class="fa fa-star"></i> 4.7</span>
+              <div class="price">
+                <span>₺45,40</span>
+                <span><strike>₺90,40</strike></span>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="img">
+              <a href="Pages/book-detail.html"><img src="images/book-9.jpg" alt="" /></a>
+              <span class="badge">50%</span>
+            </div>
+            <h5>The Ruins Of...</h5>
+            <div class="genre">
+              <span>macera,</span><span>hayatta kalma</span>
+            </div>
+            <div class="footer">
+              <span class="star"><i class="fa fa-star"></i> 4.7</span>
+              <div class="price">
+                <span>₺45,40</span>
+                <span><strike>₺90,40</strike></span>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="img">
+              <a href="Pages/book-detail.html"><img src="images/book-10.jpg" alt="" /></a>
+              <span class="badge">50%</span>
+            </div>
+            <h5>Percy Jackson</h5>
+            <div class="genre">
+              <span>macera,</span><span>hayatta kalma</span>
+            </div>
+            <div class="footer">
+              <span class="star"><i class="fa fa-star"></i> 4.7</span>
+              <div class="price">
+                <span>₺45,40</span>
+                <span><strike>₺90,40</strike></span>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="img">
+              <a href="Pages/book-detail.html"><img src="images/book-5.jpg" alt="" /></a>
+              <span class="badge">50%</span>
+            </div>
+            <h5>To Kill a...</h5>
+            <div class="genre">
+              <span>macera,</span><span>hayatta kalma</span>
+            </div>
+            <div class="footer">
+              <span class="star"><i class="fa fa-star"></i> 4.7</span>
+              <div class="price">
+                <span>₺45,40</span>
+                <span><strike>₺90,40</strike></span>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="img">
+              <a href="Pages/book-detail.html"><img src="images/book-6.jpg" alt="" /></a>
+              <span class="badge">50%</span>
+            </div>
+            <h5>Harry Potter</h5>
+            <div class="genre">
+              <span>macera,</span><span>hayatta kalma</span>
+            </div>
+            <div class="footer">
+              <span class="star"><i class="fa fa-star"></i> 4.7</span>
+              <div class="price">
+                <span>₺45,40</span>
+                <span><strike>₺90,40</strike></span>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="img">
+              <a href="Pages/book-detail.html"><img src="images/book-7.jpg" alt="" /></a>
+              <span class="badge">50%</span>
+            </div>
+            <h5>Heroes of ...</h5>
+            <div class="genre">
+              <span>macera,</span><span>hayatta kalma</span>
+            </div>
+            <div class="footer">
+              <span class="star"><i class="fa fa-star"></i> 4.7</span>
+              <div class="price">
+                <span>₺45,40</span>
+                <span><strike>₺90,40</strike></span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="feature">
+    <div class="main">
+      <div class="content">
+        <h4>Öne Çıkan Kitaplar</h4>
+        <p>
+          Okuyucularımızın en beğendiği, gazetelerde ve sosyal medyada öne çıkan eserler.
+          Hem klasiklerden hem de güncel bestseller’lardan seçmeler burada.
+        </p>
+        <div class="featured-book-card">
+          <div class="img">
+            <a href="pages/book-detail.html"><img src="images/book-2.jpg" alt="" /></a>
+          </div>
+          <div class="card-description">
+            <div class="card-header">
+              <div class="icon">
+                <i class="fa-regular fa-bookmark"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <div class="title">
+                <h5>The Wright Brothers</h5>
+                <small>biyografi, macera</small>
+              </div>
+            </div>
+            <div class="card-body">
+              <h6>Özet</h6>
+              <p>
+                İki kardeşin havacılık tarihine damga vuran yolculuğu:
+                azim, cesaret ve inovasyon dolu bir serüven.
+              </p>
+              <div class="author-year">
+                <div class="author">
+                  <small>Yazan</small>
+                  <strong>Kevin Smiley</strong>
+                </div>
+                <div class="year">
+                  <small>Yıl</small>
+                  <strong>2019</strong>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <div class="price">
+                <span>₺847,80</span>
+                <strike>₺900,00</strike>
+              </div>
+              <div class="cartbtn">
+                <button><i class="fa-solid fa-cart-shopping"></i>Sepete Ekle</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="book-section">
+        <div class="container">
+          <div class="img">
+            <a href="pages/book-detail.html"><img src="images/book-2.jpg" alt="" /></a>
+          </div>
+          <div class="img">
+            <a href="pages/book-detail.html"><img src="images/book-1.jpg" alt="" /></a>
+          </div>
+          <div class="img">
+            <a href="pages/book-detail.html"><img src="images/book-3.jpg" alt="" /></a>
+          </div>
+          <div class="img">
+            <a href="pages/book-detail.html"><img src="images/book-4.jpg" alt="" /></a>
+          </div>
+          <div class="img">
+            <a href="pages/book-detail.html"><img src="images/book-5.jpg" alt="" /></a>
+          </div>
+          <div class="img">
+            <a href="pages/book-detail.html"><img src="images/book-6.jpg" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="circle-1"></div>
+    <div class="circle-2"></div>
+  </section>
+
+  <section class="news">
+    <div class="heading">
+      <div class="title">
+        <h4>Son Haberler</h4>
+        <p>
+          Kitap dünyasından en güncel duyurular, yazar röportajları ve okuma önerileri.
+          Her hafta yenileniyor.
+        </p>
+      </div>
+      <div class="btn">
+        <button>Devamını Gör <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+    <div class="news-container">
+      <div class="post">
+        <div class="img">
+          <img src="images/news-1.avif" alt="" />
+        </div>
+        <h5>Çocuklar İçin Okuma Alışkanlığının Önemi</h5>
+        <p>
+          Araştırmalar, düzenli kitap okumanın dil gelişimini ve hayal gücünü
+          nasıl desteklediğini gösteriyor.
+          <a href="">Devamını oku</a>
+        </p>
+        <div class="post-footer">
+          <div class="img">
+            <img src="images/man1.png" alt="" />
+          </div>
+          <div class="details">
+            <strong>James Bond</strong>
+            <small>5 Ağustos 2020</small>
+          </div>
+        </div>
+      </div>
+      <div class="post">
+        <div class="img">
+          <img src="images/news-2.webp" alt="" />
+        </div>
+        <h5>Yazarlık Atölyemiz Başlıyor</h5>
+        <p>
+          Deneyimli yazarlarla online atölye serisiyle hikaye anlatımınızı bir üst
+          seviyeye taşıyın.
+          <a href="">Devamını oku</a>
+        </p>
+        <div class="post-footer">
+          <div class="img">
+            <img src="images/man1.png" alt="" />
+          </div>
+          <div class="details">
+            <strong>James Bond</strong>
+            <small>12 Ekim 2021</small>
+          </div>
+        </div>
+      </div>
+      <div class="post">
+        <div class="img">
+          <img src="images/news-3.jpg" alt="" />
+        </div>
+        <h5>Yeni Çıkan Roman İncelemesi</h5>
+        <p>
+          Geçtiğimiz ay raflarda yerini alan eserleri uzman editör kadromuz
+          mercek altına aldı.
+          <a href="">Devamını oku</a>
+        </p>
+        <div class="post-footer">
+          <div class="img">
+            <img src="images/man1.png" alt="" />
+          </div>
+          <div class="details">
+            <strong>James Bond</strong>
+            <small>20 Mart 2022</small>
+          </div>
+        </div>
+      </div>
+      <div class="post">
+        <div class="img">
+          <img src="images/news-4.jpg" alt="" />
+        </div>
+        <h5>Okuma Listesi Önerileri</h5>
+        <p>
+          Mevsime ve duygu durumunuza göre derlediğimiz 10 kitaplık listemize
+          göz atın.
+          <a href="">Devamını oku</a>
+        </p>
+        <div class="post-footer">
+          <div class="img">
+            <img src="images/man1.png" alt="" />
+          </div>
+          <div class="details">
+            <strong>James Bond</strong>
+            <small>1 Haziran 2022</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="countdown">
+    <div class="container">
+      <div class="customer counter">
+        <div class="icon">
+          <i class="fa-solid fa-user-group"></i>
+        </div>
+        <div class="content">
+          <h4 class="count">125.663</h4>
+          <small>Mutlu Müşteriler</small>
+        </div>
+      </div>
+      <div class="book counter">
+        <div class="icon">
+          <i class="fa-solid fa-book"></i>
+        </div>
+        <div class="content">
+          <h4 class="count">50.672</h4>
+          <small>Kitap Koleksiyonları</small>
+        </div>
+      </div>
+      <div class="store counter">
+        <div class="icon">
+          <i class="fa-solid fa-store"></i>
+        </div>
+        <div class="content">
+          <h4 class="count">1.562</h4>
+          <small>Mağazalarımız</small>
+        </div>
+      </div>
+      <div class="writer counter">
+        <div class="icon">
+          <i class="fa-solid fa-feather"></i>
+        </div>
+        <div class="content">
+          <h4 class="count">457</h4>
+          <small>Ünlü Yazar</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="subscription">
+    <div class="container">
+      <h4>
+        En son kitap güncellemeleri için<br />
+        bültenimize abone olun
+      </h4>
+      <div class="input">
+        <input type="email" placeholder="E-posta adresinizi buraya yazın" />
+        <button>Abone Ol</button>
+      </div>
+    </div>
+    <div class="circle-1"></div>
+    <div class="circle-2"></div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="logo-description">
+        <div class="logo">
+          <div class="img">
+            <img src="images/logo.png" alt="Logo" />
+          </div>
+          <div class="title">
+            <h4>Bookie</h4>
+            <small>Kitapçı Web Sitesi</small>
+          </div>
+        </div>
+        <div class="logo-body">
+          <p>
+            En kaliteli kitapları en uygun fiyatlarla sunuyoruz. Okuyucularımıza
+            her zaman en iyi deneyimi sağlamak için çalışıyoruz.
+          </p>
+        </div>
+        <div class="social-links">
+          <h4>Bizi Takip Edin</h4>
+          <ul class="links">
+            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="categories list">
+        <h4>Kitap Kategorileri</h4>
+        <ul>
+          <li><a href="Pages/book-filter.html">Aksiyon</a></li>
+          <li><a href="Pages/book-filter.html">Macera</a></li>
+          <li><a href="Pages/book-filter.html">Komedi</a></li>
+          <li><a href="Pages/book-filter.html">Suç</a></li>
+          <li><a href="Pages/book-filter.html">Drama</a></li>
+          <li><a href="Pages/book-filter.html">Fantastik</a></li>
+          <li><a href="Pages/book-filter.html">Korku</a></li>
+        </ul>
+      </div>
+
+      <div class="quick-links list">
+        <h4>Hızlı Bağlantılar</h4>
+        <ul>
+          <li><a href="index.html">Hakkımızda</a></li>
+          <li><a href="pages/contact.html">İletişim</a></li>
+          <li><a href="pages/book-filter.html">Ürünler</a></li>
+          <li><a href="pages/login.html">Giriş Yap</a></li>
+          <li><a href="pages/registration.html">Kayıt Ol</a></li>
+          <li><a href="pages/cart-item.html">Sepet</a></li>
+          <li><a href="pages/checkout.html">Ödeme</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+  <button class="back-to-top"><i class="fa-solid fa-chevron-up"></i></button>
+  <script src="js/back-to-top.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/repeat-js.js"></script>
+  <script src="js/add-to-cart.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+</body>
+
+</html>
